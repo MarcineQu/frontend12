@@ -31,7 +31,7 @@ jobs:
           push: true
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
-          tags: ghcr.io/MarcineQu/frontend12:latest
+          tags: ghcr.io/marcinequ/frontend12:latest
 
       - name: Build and Push Docker Image for arm64
         uses: docker/build-push-action@v2
@@ -42,4 +42,4 @@ jobs:
           push: true
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
-          tags: ghcr.io/MarcineQu/frontend12:latest-arm64
+          tags: ghcr.io/marcinequ/frontend12:latest-arm64
