@@ -20,7 +20,7 @@ jobs:
         uses: docker/setup-buildx-action@v1
 
       - name: Configure Docker to use the GitHub Container Registry
-        run: echo "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" | docker login ghcr.io -u marcinequ --password-stdin
+        run: echo "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" | docker login ghcr.io -u marcinequ --password-stdin
 
       - name: Build and Push Docker Image for x86_64
         uses: docker/build-push-action@v2
