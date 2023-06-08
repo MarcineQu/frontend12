@@ -42,5 +42,5 @@ jobs:
           file: ./Dockerfile_prod
           push: true
           tags: |
-            marcinequ/lab:frontend12
+            marcinequ/lab:ghlab10example
       
